@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "astro": "^4.16.18",
+    "astro-loader-github-prs": "^1.1.1",
     "astro-loader-github-releases": "^1.4.1",
     "nprogress": "^0.2.0"
   },
