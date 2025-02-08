@@ -42,8 +42,6 @@
     "@typescript-eslint/parser": "^8.21.0",
     "@unocss/reset": "^65.4.3",
     "astro-expressive-code": "^0.40.1",
-    "astro-loader-github-prs": "^1.1.1",
-    "astro-loader-github-releases": "^1.4.1",
     "astro-robots-txt": "^1.0.0",
     "chalk": "^5.4.1",
     "dayjs": "^1.11.13",
