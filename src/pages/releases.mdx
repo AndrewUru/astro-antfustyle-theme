@@ -1,15 +1,15 @@
 ---
-title: AstroEco is Releasing...
-description: 'Example: Displaying GitHub releases using astro-loader-github-releases'
+title: ¡Nuevos Lanzamientos en Difusor Aromas!
+description: 'Descubre nuestras últimas colecciones de difusores y fragancias exclusivas.'
 subtitle: ''
-bgType: plum
+bgType: lavender
 toc: false
 ogImage: true
 ---
 
 import BaseLayout from '~/layouts/BaseLayout.astro'
 import StandardLayout from '~/layouts/StandardLayout.astro'
-import GithubView from '~/components/views/GithubView.astro'
+import ProductShowcase from '~/components/views/ProductShowcase.astro'
 import Link from '~/components/base/Link.astro'
 
 <BaseLayout
@@ -21,10 +21,10 @@ import Link from '~/components/base/Link.astro'
   <StandardLayout isCentered={true} isWideMargin={true}>
     <Fragment slot="head">
       <h1 class="ml-12 lt-sm:ml-0"
-      >AstroEco is <span class="animate-pulse">Releasing...</span></h1>
+      >¡Nuevos <span class="animate-pulse">Lanzamientos</span> Disponibles!</h1>
       <p class="mt--4! op-50 italic"
-      >Example: Displaying GitHub releases using <Link href="https://github.com/lin-stephanie/astro-loaders/tree/main/packages/astro-loader-github-releases" external={true}>astro-loader-github-releases</Link></p>
+      >Explora nuestras <Link href="/productos" external={false}>novedades</Link>, desde difusores de última tecnología hasta aromas únicos diseñados para tu bienestar.</p>
     </Fragment>
-    <GithubView slot="github" collectionType="releases" />
+    <ProductShowcase slot="products" collectionType="new-arrivals" />
   </StandardLayout>
 </BaseLayout>

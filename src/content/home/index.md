@@ -1,79 +1,43 @@
-Glad you made it here! This is a customizable, feature-rich :link[Astro]{id=withastro/astro} theme for blog and portfolio creation, inspired by the minimalist style of :link[antfu.me]{link=https://antfu.me/ imageUrl=https://antfu.me/favicon.svg}. The design has been refined and its functionality expanded for greater flexibility.
+¡Bienvenido al Blog de Difusor Aromas! 🌿✨
+Explora un mundo lleno de bienestar y relajación. Aquí encontrarás artículos, guías y recomendaciones sobre difusores de aromas, fragancias y técnicas de aromaterapia que transformarán tus espacios.
 
-This live demo will guide you through setup and customization, offering helpful insights along the way. Enjoy exploring all the features this theme provides! ✨
+Artículos Recientes 📝
+¿Qué es la Aromaterapia y cómo funciona?
+Conoce los beneficios de los aceites esenciales y cómo usarlos correctamente en tu difusor.
+🔗 Leer más
 
-**Optimized Infrastructure**
+Los mejores difusores de aromas para cada espacio
+Te mostramos opciones de difusores para el hogar, la oficina y espacios de relajación.
+🔗 Descubre los mejores difusores
 
-- Zero UI Framework
-- [SEO-friendly](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Auto-generated RSS Feed
-- Support for [Subpath Deployment](./blog/basic-configuration/#configuring-site)
-- Optimized Local Image Handling
-- VS Code Snippets for Quick Coding
-- Well-organized [Project Structure](./blog/project-structure/)
-- Outstanding [Lighthouse Performance](./blog/faqs-and-known-issues/#lighthouse-scores)
+5 fragancias que mejoran tu estado de ánimo
+Elige las fragancias ideales para relajarte, concentrarte o revitalizarte.
+🔗 Ver fragancias recomendadas
 
-**Content Management**
+Videos Informativos 🎥
+Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y consejos para mejorar tu experiencia:
 
-- Type Safety
-- Markdown & MDX Support
-- KaTeX Math Integration
-- [Dynamic OG Image Generation](./blog/about-open-graph-images/)
-- [Callouts (Alerts / Admonitions)](./blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Directive Sugar](./blog/markdown-mdx-extended-features/#image-caption--link) for Both Markdown/MDX
-- [Code Syntax Highlighting & Annotations](./blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Customizable Animated Backgrounds (Take a look around!)
-- [Showcase Your GitHub Releases and PRs](./blog/customizing-github-activity-pages)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DwDpfKCDabU?si=nTziZfC1CF8g8Y4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-**User Experience**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- Responsive Layout
-- Full-platform TOC support
-- Light & Dark Modes Toggle
-- Smooth View Transitions
-- Loading Progress Indicator
-- [Image Zoom](./blog/faqs-and-known-issues/#image-zoom) Preview
-- [Search Functionality](./blog/faqs-and-known-issues/#search-functionality)
-- [Accessibility Enhancements](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Social Media Sharing
-- Keyboard-Friendly
+Contenido en Redes Sociales 📸
+Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:
 
-> Preparing to upgrade to Astro 5 with [more features](https://github.com/users/lin-stephanie/projects/4)! 🚀
+Últimos Posts en Instagram
+<section class="instagram-feed"> <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ejemplo_post/" data-instgrm-version="14"></blockquote> <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/otro_ejemplo/" data-instgrm-version="14"></blockquote> </section>
+Síguenos en nuestras plataformas:
+<div class="flex gap-2"> <a href="https://www.instagram.com/difusoraromas" class="btn-instagram"><span class="i-ri-instagram-line"></span> Instagram</a> <a href="https://www.facebook.com/difusoraromas" class="btn-facebook"><span class="i-ri-facebook-fill"></span> Facebook</a> <a href="https://www.youtube.com/channel/difusoraromas" class="btn-youtube"><span class="i-simple-icons-youtube"></span> YouTube</a> <a href="https://www.pinterest.com/difusoraromas" class="btn-pinterest"><span class="i-simple-icons-pinterest"></span> Pinterest</a> </div>
+Temas Destacados 🔍
+Utiliza nuestro buscador para encontrar artículos sobre temas específicos relacionados con difusores de aromas:
 
----
+Beneficios de los aceites esenciales
+Mantenimiento y limpieza de difusores
+Técnicas de relajación con fragancias
+🔗 Buscar artículos
 
-<p>
-  Visit the theme's
-  <a
-    class="inline-block ml-1.5 op-75 hover:op-100"
-    href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-  >
-  <span i-simple-icons-github></span> GitHub repo</a>
-</p>
+Sobre nosotros 🏡
+Difusor Aromas es un blog creado para inspirarte a mejorar tu bienestar a través de la aromaterapia. Te ofrecemos contenido actualizado, consejos prácticos y enlaces a productos recomendados para que vivas una experiencia sensorial única.
 
-<p>
-  <span class="inline-block mr-1.5 mb-2">Find me on</span>
-  <span class="inline-flex flex-wrap gap-2 op-75 hover:op-100">
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-github></span> GitHub</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-ri-twitter-x-fill></span> Twitter</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-instagram></span> Instagram</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-mastodon></span> Mastodon</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-youtube></span> YouTube</a>
-  </span>
-</p>
+Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos y adquirir productos, nos ayudas a mantener el blog activo sin ningún costo adicional para ti. ¡Gracias por tu apoyo! 💚
 
----
-
-If you find this theme helpful, consider supporting the project maintainer or the style designer. Your support means more than you know. Thank you! ❤️
-
-<div class="flex flex-wrap gap-4">
-  <a class="btn-rose" href="https://github.com/sponsors/lin-stephanie">
-    <span class="i-ph-heart-duotone"></span> Support Stephanie Lin (Maintainer)</a>
-  <a class="btn-yellow" href="https://github.com/sponsors/antfu">
-    <span class="i-ph-lightning-duotone"></span> Support Anthony Fu (Designer)</a>
-</div>

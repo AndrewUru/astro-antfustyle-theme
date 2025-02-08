@@ -1,113 +1,91 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://difusoraromas.com/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'Difusores de Aromas',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
+    'Descubre una experiencia sensorial única con nuestros difusores de aromas. Diseño elegante, bienestar y relajación en cada espacio.',
+  author: 'Difusor Aromas Team',
+  lang: 'es',
+  ogLocale: 'es_ES',
 }
 
 export const UI: Ui = {
   internalNavs: [
     {
       path: '/blog',
-      title: 'Blog',
+      title: 'Blog Aromas',
       displayMode: 'alwaysText',
       text: 'Blog',
     },
     {
-      path: '/projects',
-      title: 'Projects',
+      path: '/productos',
+      title: 'Productos',
       displayMode: 'alwaysText',
-      text: 'Projects',
+      text: 'Productos',
     },
     {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
+      path: '/ofertas',
+      title: 'Ofertas',
+      displayMode: 'alwaysText',
+      text: 'Ofertas',
     },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://www.instagram.com/difusoraromas',
+      title: 'Instagram Difusor Aromas',
       displayMode: 'alwaysIcon',
-      icon: 'i-uil-github-alt',
+      icon: 'i-ri-instagram-line',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://www.facebook.com/difusoraromas',
+      title: 'Facebook Difusor Aromas',
       displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
+      icon: 'i-ri-facebook-fill',
     },
   ],
   navBarLayout: {
-    left: [],
+    left: ['internalNavs'],
     right: [
-      'internalNavs',
       'socialLinks',
       'searchButton',
       'themeButton',
-      'rssLink',
+      'cartButton', // Agregado un botón de carrito si es necesario
     ],
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
+    { title: 'Destacados', path: '/destacados' },
+    { title: 'Aromaterapia', path: '/aromaterapia' },
+    { title: 'Reseñas', path: '/reseñas' },
   ],
   groupView: {
     maxGroupColumns: 3,
     showGroupItemColorOnHover: true,
   },
   githubView: {
-    monorepos: [
-      'withastro/astro',
-      'withastro/starlight',
-      'lin-stephanie/astro-loaders',
-    ],
-    mainLogoOverrides: [
-      [/starlight/, 'https://starlight.astro.build/favicon.svg'],
-    ],
-    subLogoMatches: [
-      [/theme/, 'i-unjs-theme-colors'],
-      [/github/, 'https://www.svgrepo.com/show/475654/github-color.svg'],
-      [/tweet/, 'i-logos-twitter'],
-      [/bluesky/, 'i-logos-bluesky'],
-    ],
+    monorepos: [],
+    mainLogoOverrides: [],
+    subLogoMatches: [],
   },
   externalLink: {
-    newTab: false,
-    cursorType: '',
-    showNewTabIcon: false,
+    newTab: true,
+    cursorType: 'pointer',
+    showNewTabIcon: true,
   },
 }
 
-/**
- * Configures whether to enable special features:
- *  - Set to `false` or `[false, {...}]` to disable the feature.
- *  - Set to `[true, {...}]` to enable and configure the feature.
- */
 export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
-      mastodon: false,
-      facebook: false,
-      pinterest: false,
-      reddit: false,
-      telegram: false,
-      whatsapp: false,
-      email: false,
+      twitter: [true, '@difusoraromas'],
+      instagram: [true, '@difusoraromas'],  // Adaptado a Instagram
+      facebook: [true, 'DifusorAromasFB'],
+      pinterest: true,
+      whatsapp: true,
     },
   ],
   toc: [
@@ -122,10 +100,10 @@ export const FEATURES: Features = {
   ogImage: [
     true,
     {
-      authorOrBrand: `${SITE.title}`,
-      fallbackTitle: `${SITE.description}`,
-      fallbackBgType: 'plum',
+      authorOrBrand: 'Difusores de Aromas',
+      fallbackTitle: 'Descubre una experiencia sensorial inolvidable',
+      fallbackBgType: 'pastel' as 'solid' | 'gradient' | 'pattern', // Ajuste aquí
     },
   ],
-  slideEnterAnim: [true, { enterStep: 60 }],
+  slideEnterAnim: [true, { enterStep: 70 }],
 }
