@@ -175,22 +175,23 @@ if (collectionType === 'prs') {
   <p class="my-0! lt-sm:my-1.5!">
     See
     <Link
-      class="op-100!"
       href={getUrl('/blog/customizing-github-activity-pages/')}
+      children={''}
     >
       Customizing GitHub Activity Pages
     </Link>
-    to configure your own
+    Customizing GitHub Activity Pages
   </p>
-  <p class="my-0! lt-sm:my-1.5!">
-    Inspired by
-    <Link
-      class="op-100!"
-      href={collectionType === 'releases'
-        ? 'https://releases.antfu.me/'
-        : 'https://prs.atinux.com/'}
-    >
-      {collectionType === 'releases' ? 'releases.antfu.me' : 'prs.atinux.com'}
-    </Link>
-  </p>
+  to configure your own
 </div>
+<p class="my-0! lt-sm:my-1.5!">
+  Inspired by
+  <Link
+    href={collectionType === 'releases'
+      ? 'https://releases.antfu.me/'
+      : 'https://prs.atinux.com/'}
+    children={''}
+  >
+    {collectionType === 'releases' ? 'releases.antfu.me' : 'prs.atinux.com'}
+  </Link>
+</p>
