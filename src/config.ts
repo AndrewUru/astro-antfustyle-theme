@@ -52,7 +52,6 @@ export const UI: Ui = {
       'socialLinks',
       'searchButton',
       'themeButton',
-      'cartButton', // Agregado un botón de carrito si es necesario
     ],
     mergeOnMobile: true,
   },
@@ -81,13 +80,17 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@difusoraromas'],
-      instagram: [true, '@difusoraromas'],  // Adaptado a Instagram
-      facebook: [true, 'DifusorAromasFB'],
-      pinterest: true,
       whatsapp: true,
+      twitter: false,
+      bluesky: false,
+      mastodon: false,
+      facebook: false,
+      linkedin: true,
+      pinterest: false,
+      reddit: false,
     },
   ],
+
   toc: [
     true,
     {
@@ -102,7 +105,7 @@ export const FEATURES: Features = {
     {
       authorOrBrand: 'Difusores de Aromas',
       fallbackTitle: 'Descubre una experiencia sensorial inolvidable',
-      fallbackBgType: 'pastel' as 'solid' | 'gradient' | 'pattern', // Ajuste aquí
+      fallbackBgType: 'plum', // Ajuste aquí
     },
   ],
   slideEnterAnim: [true, { enterStep: 70 }],
