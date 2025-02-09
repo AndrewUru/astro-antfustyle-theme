@@ -25,9 +25,7 @@ difusor-cecotec
 |-- Sistema de Iluminación LED
 
 
-## Visión General del Difusor Cecotec
 
-Los difusores Cecotec están diseñados para ofrecer una experiencia de aromaterapia óptima, integrando lo último en tecnología y estética. Al analizar la estructura del producto, encontramos que cada componente ha sido pensado para maximizar la eficiencia en la difusión de aceites esenciales, facilitar su uso diario y complementar cualquier estilo decorativo.
 
 Detalle de los Componentes
 Carcasa Exterior
