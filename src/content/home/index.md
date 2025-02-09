@@ -75,9 +75,6 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
     <a href="https://www.youtube.com/channel/difusoraromas" class="social-button btn-youtube">
       <span class="i-simple-icons-youtube"></span> YouTube
     </a>
-    <a href="https://www.pinterest.com/difusoraromas" class="social-button btn-pinterest">
-      <span class="i-simple-icons-pinterest"></span> Pinterest
-    </a>
   </div>
 Temas Destacados 🔍
 Utiliza nuestro buscador para encontrar artículos sobre temas específicos relacionados con difusores de aromas:
@@ -164,14 +161,6 @@ Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos 
       background-color: #E50914;
     }
 
-    /* Pinterest */
-    .btn-pinterest {
-      background-color: #BD081C;
-    }
-    .btn-pinterest:hover {
-      background-color: #A30617;
-    }
-
     /* Opcional: estilo para los iconos, ajusta según la librería que utilices */
     .social-button span {
       font-size: 1.2rem;
@@ -182,7 +171,7 @@ Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos 
       /* Contenedor en grid para la galería de Instagram */
     .instagram-feed {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
       gap: 20px;
       padding: 10px;
     }
