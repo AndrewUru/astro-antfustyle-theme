@@ -39,7 +39,7 @@ Los difusores mejoran la calidad del aire al dispersar aceites esenciales que pu
 A diferencia de otros materiales, el vidrio es resistente a la absorción de olores o aceites, lo que facilita su mantenimiento.
 
 > *Conoce más sobre cómo los difusores mejoran tu bienestar en este video:*  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2nN7UrUzEFA?si=tRoFTr9nJxAu1y1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="90vw" height="auto" src="https://www.youtube.com/embed/2nN7UrUzEFA?si=tRoFTr9nJxAu1y1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
