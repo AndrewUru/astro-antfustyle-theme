@@ -41,25 +41,44 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
   </div>
 
 
-Últimos Posts en Instagram
-<section class="instagram-feed">
+ <h2>Últimos Posts en Instagram</h2>
+  <section class="instagram-feed">
   <!-- Difusor estilo moderno de Neom Organics -->
-  <blockquote class="instagram-media" 
-    data-instgrm-permalink="https://www.instagram.com/p/C5z7VkioB4F/"
-    data-instgrm-version="14"></blockquote>
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/C3qZRW7r4fl/" 
+      data-instgrm-version="14">
+    </blockquote>
+<!-- Difusor ultrasónico de Aromatherapy Associates -->
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/DA0rz7sO3xB/" 
+      data-instgrm-version="14">
+    </blockquote>
+<!-- Kit difusor esencial de Young Living -->
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/p/DFdTZtavf4i/" 
+      data-instgrm-version="14">
+    </blockquote>
 
-  <!-- Difusor ultrasónico de Aromatherapy Associates -->
-  <blockquote class="instagram-media" 
-    data-instgrm-permalink="https://www.instagram.com/p/C6BqX_SozqK/"
-    data-instgrm-version="14"></blockquote>
+  </section>
 
-  <!-- Kit difusor esencial de Young Living -->
-  <blockquote class="instagram-media" 
-    data-instgrm-permalink="https://www.instagram.com/p/C6GgTd0I_7V/"
-    data-instgrm-version="14"></blockquote>
-</section>
-Síguenos en nuestras plataformas:
-<div class="flex gap-2"> <a href="https://www.instagram.com/elsaltoweb/" class="btn-instagram"><span class="i-ri-instagram-line"></span> Instagram</a> <a href="https://www.facebook.com/difusor.aromas.2023" class="btn-facebook"><span class="i-ri-facebook-fill"></span> Facebook</a> <a href="https://www.youtube.com/channel/difusoraromas" class="btn-youtube"><span class="i-simple-icons-youtube"></span> YouTube</a> <a href="https://www.pinterest.com/difusoraromas" class="btn-pinterest"><span class="i-simple-icons-pinterest"></span> Pinterest</a> </div>
+  <!-- Script oficial para renderizar los embeds de Instagram -->
+  <script async defer src="https://www.instagram.com/embed.js"></script>
+
+  <h2>Síguenos en nuestras plataformas:</h2>
+  <div class="social-container">
+    <a href="https://www.instagram.com/elsaltoweb/" class="social-button btn-instagram">
+      <span class="i-ri-instagram-line"></span> Instagram
+    </a>
+    <a href="https://www.facebook.com/difusor.aromas.2023" class="social-button btn-facebook">
+      <span class="i-ri-facebook-fill"></span> Facebook
+    </a>
+    <a href="https://www.youtube.com/channel/difusoraromas" class="social-button btn-youtube">
+      <span class="i-simple-icons-youtube"></span> YouTube
+    </a>
+    <a href="https://www.pinterest.com/difusoraromas" class="social-button btn-pinterest">
+      <span class="i-simple-icons-pinterest"></span> Pinterest
+    </a>
+  </div>
 Temas Destacados 🔍
 Utiliza nuestro buscador para encontrar artículos sobre temas específicos relacionados con difusores de aromas:
 
@@ -92,6 +111,89 @@ Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos 
       width: 100%;
       height: 100%;
       border: 0;
+    }
+
+       /* Contenedor principal de botones */
+    .social-container {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    /* Estilo base para todos los botones */
+    .social-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      color: #fff;
+    }
+
+    /* Efecto hover general */
+    .social-button:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Instagram */
+    .btn-instagram {
+      background-color: #E4405F;
+    }
+    .btn-instagram:hover {
+      background-color: #D1354C;
+    }
+
+    /* Facebook */
+    .btn-facebook {
+      background-color: #3b5998;
+    }
+    .btn-facebook:hover {
+      background-color: #2d4373;
+    }
+
+    /* YouTube */
+    .btn-youtube {
+      background-color: #FF0000;
+    }
+    .btn-youtube:hover {
+      background-color: #E50914;
+    }
+
+    /* Pinterest */
+    .btn-pinterest {
+      background-color: #BD081C;
+    }
+    .btn-pinterest:hover {
+      background-color: #A30617;
+    }
+
+    /* Opcional: estilo para los iconos, ajusta según la librería que utilices */
+    .social-button span {
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+    }
+
+      /* Contenedor en grid para la galería de Instagram */
+    .instagram-feed {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    /* Opcional: estilos para los blockquotes que albergan los embeds */
+    .instagram-media {
+      background: #fff;
+      border: 1px solid #e6e6e6;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
   </style>
 
