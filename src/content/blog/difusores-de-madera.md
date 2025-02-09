@@ -16,7 +16,7 @@ Los difusores de madera se han convertido en una tendencia tanto por su estétic
 
 Un difusor de madera es un dispositivo de aromaterapia que utiliza tecnología ultrasónica para dispersar aceites esenciales en el aire. Aunque su estructura interna suele estar hecha de plásticos duraderos o cerámica, el acabado en madera lo convierte en una pieza decorativa ideal para cualquier tipo de ambiente, ya sea minimalista, rústico o moderno.
 
-![Imagen de difusor de madera](https://via.placeholder.com/1024x683.png "Difusor de madera decorativo")  
+![Imagen de difusor de madera](https://elsaltoweb.es/wp-content/uploads/2025/02/difusor-de-madera-scaled.jpg "Difusor de madera decorativo")  
 [Descubre más imágenes de ambientes con difusores](https://unsplash.com/s/photos/aroma-diffuser)
 
 ---

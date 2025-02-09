@@ -5,7 +5,7 @@ pubDate: 2025-02-09
 lastModDate: 2025-02-09
 toc: true
 share: true
-ogImage: true
+ogImage: "https://elsaltoweb.es/wp-content/uploads/2025/02/pexels-chen-chen-436508118-15426084-scaled.jpg"
 ---
 
 # Difusores de Vidrio: Elegancia y Aromaterapia en Armonía
@@ -22,7 +22,7 @@ Un difusor de vidrio es un dispositivo ultrasónico que libera micropartículas 
 
 Estos difusores son especialmente valorados en decoraciones elegantes o minimalistas, donde la transparencia y los reflejos del vidrio aportan un toque de distinción.
 
-![Difusor de vidrio decorativo](https://via.placeholder.com/1024x683.png "Difusor de vidrio elegante")  
+![Difusor de vidrio decorativo](https://elsaltoweb.es/wp-content/uploads/2025/02/pexels-chen-chen-436508118-15426084-scaled.jpg "Difusor de vidrio elegante")  
 [Explora más imágenes de difusores aquí](https://unsplash.com/s/photos/glass-diffuser)
 
 ---
@@ -39,17 +39,26 @@ Los difusores mejoran la calidad del aire al dispersar aceites esenciales que pu
 A diferencia de otros materiales, el vidrio es resistente a la absorción de olores o aceites, lo que facilita su mantenimiento.
 
 > *Conoce más sobre cómo los difusores mejoran tu bienestar en este video:*  
-[![Video sobre difusores de vidrio](https://via.placeholder.com/640x360.png)](https://www.youtube.com/watch?v=sample-link "Cómo funciona un difusor de vidrio")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2nN7UrUzEFA?si=tRoFTr9nJxAu1y1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Diferencias entre un difusor de vidrio y otros materiales
 
-| Característica             | Vidrio                        | Madera                          | Cerámica                       |
-|----------------------------|-------------------------------|----------------------------------|-------------------------------|
-| Estética                   | Sofisticada, elegante          | Cálida, natural                  | Clásica, artesanal            |
-| Limpieza                   | Fácil, no absorbe olores       | Requiere mayor cuidado           | Moderada                      |
-| Compatibilidad decorativa  | Espacios modernos y elegantes | Espacios rústicos o minimalistas | Espacios clásicos o zen       |
+### **Difusor de vidrio**
+- **Estética:** Sofisticada, elegante.  
+- **Limpieza:** Fácil, no absorbe olores.  
+- **Compatibilidad decorativa:** Ideal para espacios modernos y elegantes.  
+
+### **Difusor de madera**
+- **Estética:** Cálida, natural.  
+- **Limpieza:** Requiere mayor cuidado debido a los poros naturales de la madera.  
+- **Compatibilidad decorativa:** Perfecto para espacios rústicos o minimalistas.  
+
+### **Difusor de cerámica**
+- **Estética:** Clásica, artesanal.  
+- **Limpieza:** Moderada, se limpia fácilmente, pero puede ser algo frágil.  
+- **Compatibilidad decorativa:** Adecuado para ambientes clásicos, zen o bohemios.  
 
 ---
 
@@ -61,7 +70,7 @@ Para mantener tu difusor en óptimas condiciones, sigue estos consejos:
 2. **Evita golpes:** El vidrio es delicado; ubica el difusor en una superficie estable.
 3. **Usa aceites esenciales de calidad:** Así evitarás residuos que puedan afectar el mecanismo ultrasónico.
 
-![Difusor de vidrio iluminado en la noche](https://via.placeholder.com/1024x683.png "Difusor de vidrio iluminado")  
+![Difusor de vidrio iluminado en la noche](https://elsaltoweb.es/wp-content/uploads/2025/02/pexels-cottonbro-7417506-scaled.jpg "Difusor de vidrio iluminado")  
 [Encuentra más ideas de decoración aquí](https://www.pexels.com/search/glass-diffuser/)
 
 ---
