@@ -17,13 +17,29 @@ Elige las fragancias ideales para relajarte, concentrarte o revitalizarte.
 Videos Informativos 🎥
 Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y consejos para mejorar tu experiencia:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DwDpfKCDabU?si=nTziZfC1CF8g8Y4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/DwDpfKCDabU?si=nTziZfC1CF8g8Y4r" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+    </iframe>
+  </div>
 
+  <!-- Contenido en Redes Sociales -->
+  <h2>Contenido en Redes Sociales 📸</h2>
+  <p>Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:</p>
 
-Contenido en Redes Sociales 📸
-Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:
+  <!-- Segundo video -->
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+    </iframe>
+  </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Últimos Posts en Instagram
 <section class="instagram-feed">
@@ -56,4 +72,26 @@ Sobre nosotros 🏡
 Difusor Aromas es un blog creado para inspirarte a mejorar tu bienestar a través de la aromaterapia. Te ofrecemos contenido actualizado, consejos prácticos y enlaces a productos recomendados para que vivas una experiencia sensorial única.
 
 Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos y adquirir productos, nos ayudas a mantener el blog activo sin ningún costo adicional para ti. ¡Gracias por tu apoyo! 💚
+
+
+ <style>
+    /* Contenedor responsivo para videos 16:9 */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* (9 / 16) * 100 */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    /* El iframe se posiciona de forma absoluta y ocupa el 100% del contenedor */
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
 
