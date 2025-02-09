@@ -1,0 +1,38 @@
+---
+title: ¡Nuevos Lanzamientos en Difusor Aromas!
+description: 'Descubre nuestras últimas colecciones de difusores y fragancias exclusivas.'
+subtitle: ''
+bgType: 'plum'
+toc: false
+ogImage: true
+---
+
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import ProductShowcase from '~/components/views/ProductShowcase.astro'
+import Link from '~/components/base/Link.astro'
+import { Fragment } from 'astro/jsx-runtime'
+
+<BaseLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  bgType={frontmatter.bgType}
+  ogImage={frontmatter.ogImage}
+>
+  <StandardLayout isCentered={true} isWideMargin={true}>
+    <Fragment slot="head">
+      <h1 class="ml-12 lt-sm:ml-0">
+        ¡Nuevos <span class="animate-pulse">Lanzamientos</span> Disponibles!
+      </h1>
+      <p class="mt--4! op-50 italic">
+        Explora nuestras{' '}
+        <Link href="/productos" external={false}>
+          novedades
+        </Link>
+        , desde difusores de última tecnología hasta aromas únicos diseñados
+        para tu bienestar.
+      </p>
+    </Fragment>
+    <ProductShowcase slot="products" collectionType="new-arrivals" />
+  </StandardLayout>
+</BaseLayout>
