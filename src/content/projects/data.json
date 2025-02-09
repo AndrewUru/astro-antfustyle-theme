@@ -1,17 +1,27 @@
 {
   "$schema": "../../../.astro/collections/projects.schema.json",
   "products": {
-    "Astro Ecosystem": [],
-    "Markdown Handling": [],
-    "Image Handling": [],
-    "CSS & Icons": [],
-    "Background Animation": [],
-    "Code Block Handling": [],
-    "Utilities": [],
-    "TypeScript": [],
-    "Linting & Formatting": [],
-    "CLI & Terminal": [],
-    "Remark Utilities": [],
-    "Credits": []
+    "Ultrasónicos": [
+      {
+        "name": "Difusor Elegance",
+        "link": "https://example.com/productos/difusor-elegance",
+        "desc": "Difusor ultrasónico elegante para ambientes modernos.",
+        "icon": "i-icon-diffuser-elegance"
+      },
+      {
+        "name": "Difusor Zen",
+        "link": "https://example.com/productos/difusor-zen",
+        "desc": "Crea un ambiente de meditación y relajación con este difusor ultrasónico.",
+        "icon": "i-icon-diffuser-zen"
+      }
+    ],
+    "Smart": [
+      {
+        "name": "Difusor Smart",
+        "link": "https://example.com/productos/difusor-smart",
+        "desc": "Difusor con conectividad WiFi y control vía app.",
+        "icon": "i-icon-smart-diffuser"
+      }
+    ]
   }
 }
