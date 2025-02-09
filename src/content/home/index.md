@@ -19,15 +19,31 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DwDpfKCDabU?si=nTziZfC1CF8g8Y4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Contenido en Redes Sociales 📸
 Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Últimos Posts en Instagram
-<section class="instagram-feed"> <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ejemplo_post/" data-instgrm-version="14"></blockquote> <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/otro_ejemplo/" data-instgrm-version="14"></blockquote> </section>
+<section class="instagram-feed">
+  <!-- Difusor estilo moderno de Neom Organics -->
+  <blockquote class="instagram-media" 
+    data-instgrm-permalink="https://www.instagram.com/p/C5z7VkioB4F/"
+    data-instgrm-version="14"></blockquote>
+
+  <!-- Difusor ultrasónico de Aromatherapy Associates -->
+  <blockquote class="instagram-media" 
+    data-instgrm-permalink="https://www.instagram.com/p/C6BqX_SozqK/"
+    data-instgrm-version="14"></blockquote>
+
+  <!-- Kit difusor esencial de Young Living -->
+  <blockquote class="instagram-media" 
+    data-instgrm-permalink="https://www.instagram.com/p/C6GgTd0I_7V/"
+    data-instgrm-version="14"></blockquote>
+</section>
 Síguenos en nuestras plataformas:
-<div class="flex gap-2"> <a href="https://www.instagram.com/difusoraromas" class="btn-instagram"><span class="i-ri-instagram-line"></span> Instagram</a> <a href="https://www.facebook.com/difusoraromas" class="btn-facebook"><span class="i-ri-facebook-fill"></span> Facebook</a> <a href="https://www.youtube.com/channel/difusoraromas" class="btn-youtube"><span class="i-simple-icons-youtube"></span> YouTube</a> <a href="https://www.pinterest.com/difusoraromas" class="btn-pinterest"><span class="i-simple-icons-pinterest"></span> Pinterest</a> </div>
+<div class="flex gap-2"> <a href="https://www.instagram.com/elsaltoweb/" class="btn-instagram"><span class="i-ri-instagram-line"></span> Instagram</a> <a href="https://www.facebook.com/difusor.aromas.2023" class="btn-facebook"><span class="i-ri-facebook-fill"></span> Facebook</a> <a href="https://www.youtube.com/channel/difusoraromas" class="btn-youtube"><span class="i-simple-icons-youtube"></span> YouTube</a> <a href="https://www.pinterest.com/difusoraromas" class="btn-pinterest"><span class="i-simple-icons-pinterest"></span> Pinterest</a> </div>
 Temas Destacados 🔍
 Utiliza nuestro buscador para encontrar artículos sobre temas específicos relacionados con difusores de aromas:
 
