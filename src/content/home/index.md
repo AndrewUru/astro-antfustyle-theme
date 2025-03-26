@@ -1,20 +1,20 @@
 ¡Bienvenido al Blog de Difusor Aromas! 🌿✨
-Explora un mundo lleno de bienestar y relajación. Aquí encontrarás artículos, guías y recomendaciones sobre difusores de aromas, fragancias y técnicas de aromaterapia que transformarán tus espacios.
+## Explora un mundo lleno de bienestar y relajación. 
+Aquí encontrarás artículos, guías y recomendaciones sobre difusores de aromas, fragancias y técnicas de aromaterapia que transformarán tus espacios.
 
-Artículos Recientes 📝
+## Artículos Recientes 📝
 ¿Qué es la Aromaterapia y cómo funciona?
 Conoce los beneficios de los aceites esenciales y cómo usarlos correctamente en tu difusor.
-🔗 Leer más
 
-Los mejores difusores de aromas para cada espacio
+
+## Los mejores difusores de aromas para cada espacio
 Te mostramos opciones de difusores para el hogar, la oficina y espacios de relajación.
-🔗 Descubre los mejores difusores
 
-5 fragancias que mejoran tu estado de ánimo
+## 5 fragancias que mejoran tu estado de ánimo
 Elige las fragancias ideales para relajarte, concentrarte o revitalizarte.
-🔗 Ver fragancias recomendadas
 
-Videos Informativos 🎥
+
+## Videos Informativos 🎥
 Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y consejos para mejorar tu experiencia:
 
   <div class="video-container">
@@ -76,18 +76,18 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
       <span class="i-simple-icons-youtube"></span> YouTube
     </a>
   </div>
-Temas Destacados 🔍
+
+## Temas Destacados 🔍
 Utiliza nuestro buscador para encontrar artículos sobre temas específicos relacionados con difusores de aromas:
 
-Beneficios de los aceites esenciales
+## Beneficios de los aceites esenciales
 Mantenimiento y limpieza de difusores
 Técnicas de relajación con fragancias
-🔗 Buscar artículos
 
-Sobre nosotros 🏡
+## Sobre nosotros 🏡
 Difusor Aromas es un blog creado para inspirarte a mejorar tu bienestar a través de la aromaterapia. Te ofrecemos contenido actualizado, consejos prácticos y enlaces a productos recomendados para que vivas una experiencia sensorial única.
 
-Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos y adquirir productos, nos ayudas a mantener el blog activo sin ningún costo adicional para ti. ¡Gracias por tu apoyo! 💚
+## Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos y adquirir productos, nos ayudas a mantener el blog activo sin ningún costo adicional para ti. ¡Gracias por tu apoyo! 💚
 
 
  <style>
@@ -170,10 +170,10 @@ Nota: Algunos artículos contienen enlaces de afiliados. Al hacer clic en ellos 
 
       /* Contenedor en grid para la galería de Instagram */
     .instagram-feed {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-      gap: 20px;
-      padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        gap: 20px;
+        justify-items: center;
     }
 
     /* Opcional: estilos para los blockquotes que albergan los embeds */
