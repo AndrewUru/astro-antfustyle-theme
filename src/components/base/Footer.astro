@@ -7,9 +7,19 @@ const copyrightText = `© ${currentYear} ${SITE.author}`
 ---
 
 <footer
-  class="slide-enter animate-delay-1600! px-7 mt-auto mb-8 text-center text-sm text-white bg-[#1e1e1e] py-6 rounded-lg shadow-md"
+  class="slide-enter animate-delay-1600! px-7 mt-auto mb-8 text-center text-sm text-white py-6 rounded-lg shadow-lg relative overflow-hidden"
 >
-  <div class="max-w-screen-md mx-auto space-y-2">
+  {/* Fondo animado con gradiente */}
+  <div
+    class="absolute inset-0 bg-gradient-to-br from-[#500474] via-[#2a2a40] to-[#02863e] animate-gradient bg-[length:400%_400%] opacity-50 z-0 rounded-lg"
+  >
+  </div>
+
+  {/* Contenido del footer */}
+  <div
+    class="relative z-10 max-w-screen-md mx-auto space-y-2"
+    style="color: var(--c-text)"
+  >
     <div
       class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4"
     >
@@ -29,3 +39,21 @@ const copyrightText = `© ${currentYear} ${SITE.author}`
     <div class="text-xs text-gray-400">Aromas que transforman espacios ✨</div>
   </div>
 </footer>
+
+<style>
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-gradient {
+    animation: gradientShift 10s ease infinite;
+  }
+</style>
