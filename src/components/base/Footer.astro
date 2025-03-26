@@ -6,17 +6,26 @@ const currentYear = new Date().getFullYear()
 const copyrightText = `© ${currentYear} ${SITE.author}`
 ---
 
-<footer class="slide-enter animate-delay-1600! px-7 mt-auto mb-8">
-  <div class="prose mx-auto op-50">
-    <div class="flex lt-sm:flex-col items-center text-sm whitespace-nowrap">
-      <span>{copyrightText}</span>
-      <span class="lt-sm:hidden">&nbsp;|&nbsp;</span>
-      <span>
+<footer
+  class="slide-enter animate-delay-1600! px-7 mt-auto mb-8 text-center text-sm text-white bg-[#1e1e1e] py-6 rounded-lg shadow-md"
+>
+  <div class="max-w-screen-md mx-auto space-y-2">
+    <div
+      class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4"
+    >
+      <span class="opacity-70">{copyrightText}</span>
+      <span class="hidden sm:inline opacity-50">|</span>
+      <span class="opacity-70">
         Powered by
-        <Link href="https://github.com/AndrewUru" external={true}>
+        <Link
+          href="https://elsaltoweb.es"
+          external={true}
+          class="text-[#86efac] hover:underline ml-1"
+        >
           ElSaltoWeb.es
         </Link>
       </span>
     </div>
+    <div class="text-xs text-gray-400">Aromas que transforman espacios ✨</div>
   </div>
 </footer>
