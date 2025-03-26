@@ -1,4 +1,5 @@
 ---
+// Footer.astro
 import Link from '~/components/base/Link.astro'
 import { SITE } from '~/config'
 
@@ -7,36 +8,93 @@ const copyrightText = `© ${currentYear} ${SITE.author}`
 ---
 
 <footer
-  class="slide-enter animate-delay-1600! px-7 mt-auto mb-8 text-center text-sm text-white py-6 rounded-lg shadow-lg relative overflow-hidden"
+  class="slide-enter animate-delay-1600! px-6 mt-auto mb-8 text-white py-10 rounded-xl shadow-xl relative overflow-hidden"
 >
   {/* Fondo animado con gradiente */}
   <div
-    class="absolute inset-0 bg-gradient-to-br from-[#500474] via-[#2a2a40] to-[#02863e] animate-gradient bg-[length:400%_400%] opacity-50 z-0 rounded-lg"
+    class="absolute inset-0 bg-gradient-to-br from-[#500474] via-[#2a2a40] to-[#02863e] animate-gradient bg-[length:400%_400%] opacity-50 z-0 rounded-xl"
   >
   </div>
 
   {/* Contenido del footer */}
-  <div
-    class="relative z-10 max-w-screen-md mx-auto space-y-2"
-    style="color: var(--c-text)"
-  >
-    <div
-      class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4"
-    >
-      <span class="opacity-70">{copyrightText}</span>
-      <span class="hidden sm:inline opacity-50">|</span>
-      <span class="opacity-70">
-        Powered by
-        <Link
-          href="https://elsaltoweb.es"
-          external={true}
-          class="text-[#86efac] hover:underline ml-1"
-        >
-          ElSaltoWeb.es
-        </Link>
-      </span>
+  <div class="relative z-10 max-w-6xl mx-auto space-y-10">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm text-gray-200">
+      {/* Sección de navegación */}
+      <div>
+        <h3 class="font-semibold mb-3 text-white">Navegación</h3>
+        <ul class="space-y-2">
+          <li><Link href="/">Inicio</Link></li>
+          <li><Link href="/blog">Blog</Link></li>
+          <li><Link href="/productos">Productos</Link></li>
+          <li><Link href="/ofertas">Ofertas</Link></li>
+        </ul>
+      </div>
+
+      {/* Sección de contacto */}
+      <div>
+        <h3 class="font-semibold mb-3 text-white">Contacto</h3>
+        <ul class="space-y-2">
+          <li>
+            Email: <a href="mailto:atobio459@gmail.com" class="hover:underline"
+              >hola@elsaltoweb.es</a
+            >
+          </li>
+          <li>
+            Tel: <a href="tel:+34648226078" class="hover:underline"
+              >+34 648 226 078</a
+            >
+          </li>
+          <li>Valencia, España</li>
+        </ul>
+      </div>
+
+      {/* Redes Sociales */}
+      <div>
+        <h3 class="font-semibold mb-3 text-white">Síguenos</h3>
+        <div class="flex space-x-4">
+          <a
+            href="https://instagram.com/elsaltoweb"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            class="hover:scale-110 transition"
+          >
+            <svg
+              class="w-5 h-5 fill-current text-white hover:text-pink-400"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              ><path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.337 3.608 1.312.976.976 1.25 2.243 1.312 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.337 2.633-1.312 3.608-.976.976-2.243 1.25-3.608 1.312-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.337-3.608-1.312-.976-.976-1.25-2.243-1.312-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.337-2.633 1.312-3.608C4.521 2.5 5.788 2.226 7.154 2.164 8.42 2.106 8.8 2.094 12 2.094M12 0C8.741 0 8.332.015 7.052.072 5.775.129 4.693.384 3.758 1.318c-.934.935-1.189 2.017-1.246 3.294C2.015 5.668 2 6.077 2 9.336v5.327c0 3.259.015 3.668.072 4.948.057 1.276.312 2.358 1.246 3.293.935.934 2.017 1.189 3.294 1.246 1.28.057 1.689.072 4.948.072s3.668-.015 4.948-.072c1.276-.057 2.358-.312 3.293-1.246.934-.935 1.189-2.017 1.246-3.294.057-1.28.072-1.689.072-4.948V9.336c0-3.259-.015-3.668-.072-4.948-.057-1.276-.312-2.358-1.246-3.293C20.358.384 19.276.129 18 .072 16.719.015 16.31 0 13.05 0H12z"
+              ></path><path
+                d="M12 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838m0 10.162A4 4 0 1 1 16 12a4 4 0 0 1-4 4zM18.406 4.594a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"
+              ></path></svg
+            >
+          </a>
+          <!-- Agrega más íconos si quieres -->
+        </div>
+      </div>
     </div>
-    <div class="text-xs text-gray-400">Aromas que transforman espacios ✨</div>
+
+    {/* Footer base */}
+    <div class="border-t border-white/20 pt-6 text-center text-xs opacity-80">
+      <div
+        class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4"
+      >
+        <span>{copyrightText}</span>
+        <span class="hidden sm:inline">|</span>
+        <span>
+          Powered by
+          <Link
+            href="https://elsaltoweb.es"
+            external={true}
+            class="text-[#5e0a6e] hover:underline ml-1"
+          >
+            ElSaltoWeb.es
+          </Link>
+        </span>
+      </div>
+      <div class="mt-2">Aromas que transforman espacios ✨</div>
+    </div>
   </div>
 </footer>
 
