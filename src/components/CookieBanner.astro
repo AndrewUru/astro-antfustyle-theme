@@ -1,0 +1,37 @@
+---
+// src/components/CookieBanner.astro
+---
+
+<script>
+  if (typeof window !== 'undefined') {
+    if (!document.cookie.includes('cookies-accepted=true')) {
+      window.addEventListener('DOMContentLoaded', () => {
+        const banner = document.getElementById('cookie-banner')
+        if (banner) banner.style.display = 'block'
+
+        const acceptBtn = document.getElementById('accept-cookies')
+        if (acceptBtn) {
+          acceptBtn.addEventListener('click', () => {
+            document.cookie = 'cookies-accepted=true; path=/; max-age=31536000'
+            banner.style.display = 'none'
+          })
+        }
+      })
+    }
+  }
+</script>
+
+<div
+  id="cookie-banner"
+  style="display:none"
+  class="fixed bottom-4 left-4 right-4 bg-white text-black p-4 rounded shadow-lg text-sm max-w-xl mx-auto z-50"
+>
+  <p>
+    Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra
+    política de cookies.
+  </p>
+  <button
+    id="accept-cookies"
+    class="mt-2 bg-blue-600 text-white px-3 py-1 rounded">Aceptar</button
+  >
+</div>
