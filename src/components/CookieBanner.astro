@@ -56,22 +56,31 @@
 <div
   id="cookie-banner"
   style="display:none"
-  class="fixed bottom-4 left-4 right-4 bg-white text-black p-4 rounded shadow-lg text-sm max-w-xl mx-auto z-50"
+  class="fixed bottom-6 left-6 right-6 md:bottom-4 md:left-4 md:right-4 bg-black/80 backdrop-blur-md text-white p-5 rounded-xl shadow-xl text-sm max-w-2xl mx-auto z-50 transition-all duration-300 animate-fade-in"
 >
-  <p class="mb-2">
-    Este sitio utiliza cookies para mejorar la experiencia del usuario.
+  <p class="mb-3 font-light">
+    Este sitio utiliza cookies 🍪 para mejorar tu experiencia. Puedes aceptar
+    todas, rechazar o configurar tus preferencias.
   </p>
-  <div class="flex flex-wrap gap-2">
+  <div class="flex flex-wrap gap-2 justify-end">
     <button
       id="accept-cookies"
-      class="bg-green-600 text-white px-3 py-1 rounded">Aceptar todas</button
+      class="bg-amber-500 hover:bg-amber-600 transition text-white px-4 py-2 rounded-lg text-sm"
     >
-    <button id="config-cookies" class="bg-blue-600 text-white px-3 py-1 rounded"
-      >Configurar</button
+      Aceptar todas
+    </button>
+    <button
+      id="config-cookies"
+      class="bg-white text-black hover:bg-gray-200 transition px-4 py-2 rounded-lg text-sm"
     >
-    <button id="reject-cookies" class="bg-gray-400 text-black px-3 py-1 rounded"
-      >Rechazar</button
+      Configurar
+    </button>
+    <button
+      id="reject-cookies"
+      class="bg-gray-600 hover:bg-gray-700 transition text-white px-4 py-2 rounded-lg text-sm"
     >
+      Rechazar
+    </button>
   </div>
 </div>
 
@@ -79,20 +88,27 @@
 <div
   id="cookie-config"
   style="display:none"
-  class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50"
+  class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-50 transition-all animate-fade-in"
 >
-  <div class="bg-white p-6 rounded max-w-md shadow-lg w-full">
+  <div
+    class="bg-white dark:bg-neutral-900 text-black dark:text-white p-6 rounded-xl max-w-md w-full shadow-xl"
+  >
     <h2 class="text-lg font-semibold mb-4">Preferencias de cookies</h2>
-    <label class="block mb-2">
-      <input type="checkbox" id="analytics" class="mr-2" /> Cookies analíticas
+    <label class="block mb-3">
+      <input type="checkbox" id="analytics" class="mr-2" />
+      Cookies analíticas
     </label>
-    <label class="block mb-4">
-      <input type="checkbox" id="marketing" class="mr-2" /> Cookies de marketing
+    <label class="block mb-5">
+      <input type="checkbox" id="marketing" class="mr-2" />
+      Cookies de marketing
     </label>
-    <div class="flex gap-2 justify-end">
-      <button id="save-prefs" class="bg-blue-600 text-white px-3 py-1 rounded"
-        >Guardar preferencias</button
+    <div class="flex justify-end gap-2">
+      <button
+        id="save-prefs"
+        class="bg-amber-500 hover:bg-amber-600 transition text-white px-4 py-2 rounded-lg text-sm"
       >
+        Guardar preferencias
+      </button>
     </div>
   </div>
 </div>

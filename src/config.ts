@@ -48,17 +48,13 @@ export const UI: Ui = {
   ],
   navBarLayout: {
     left: ['internalNavs'],
-    right: [
-      'socialLinks',
-      'searchButton',
-      'themeButton',
-    ],
+    right: ['socialLinks', 'searchButton', 'themeButton'],
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
     { title: 'Destacados', path: '/destacados' },
     { title: 'Aromaterapia', path: '/aromaterapia' },
-    { title: 'Reseñas', path: '/reseñas' },
+    { title: 'Ofertas', path: '/ofertas' },
   ],
   groupView: {
     maxGroupColumns: 3,
