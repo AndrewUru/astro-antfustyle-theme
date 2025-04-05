@@ -1,0 +1,51 @@
+---
+// src/components/VantaBackground.astro
+---
+
+<div
+  id="hero-bg"
+  class="relative h-[60vh] w-[95%] mx-auto my-8 rounded-3xl overflow-hidden border border-white/10 shadow-lg"
+>
+  <div class="absolute inset-0 z-0"></div>
+  <div
+    class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6"
+  >
+    <h1 class="text-4xl md:text-6xl font-bold drop-shadow-md">
+      Bienvenido a AromaLuxe
+    </h1>
+    <p class="mt-4 text-lg md:text-xl">
+      Descubre el equilibrio, la calma y el poder de los aromas
+    </p>
+  </div>
+</div>
+
+<!-- Cargamos scripts como HTML clásico -->
+<script is:raw>
+  const loadScript = (src) =>
+    new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = src
+      script.onload = resolve
+      script.onerror = reject
+      document.head.appendChild(script)
+    })
+
+  window.addEventListener('DOMContentLoaded', async () => {
+    await loadScript(
+      'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js'
+    )
+    await loadScript(
+      'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js'
+    )
+
+    window.VANTA.WAVES({
+      el: '#hero-bg',
+      color: 0x111111,
+      shininess: 30,
+      waveHeight: 15,
+      waveSpeed: 0.3,
+      zoom: 0.9,
+      backgroundColor: 0x000000,
+    })
+  })
+</script>

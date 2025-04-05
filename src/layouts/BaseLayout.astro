@@ -50,6 +50,19 @@ if (hasCustomCursor) style['--external-link-cursor'] = cursorType
 <html lang={SITE.lang}>
   <head>
     <Head {title} {description} {ogImage} {pubDate} {lastModDate} />
+    <!-- En tu layout o componente de Head -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"
+    ></script>
   </head>
 
   <body
@@ -66,7 +79,7 @@ if (hasCustomCursor) style['--external-link-cursor'] = cursorType
       href="#main"
       class="sr-only focus:(not-sr-only fixed start-1 top-1.5 op-20)"
     >
-      Skip to content
+      Ir al contenido
     </Link>
     <NavBar />
     <main id="main" class="px-7 py-10">

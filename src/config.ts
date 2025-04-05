@@ -40,7 +40,7 @@ export const UI: Ui = {
       icon: 'i-ri-instagram-line',
     },
     {
-      link: 'https://www.facebook.com/difusoraromas',
+      link: 'https://www.facebook.com/difusor.aromas.2023/',
       title: 'Facebook Difusor Aromas',
       displayMode: 'alwaysIcon',
       icon: 'i-ri-facebook-fill',
@@ -53,7 +53,7 @@ export const UI: Ui = {
   },
   tabbedLayoutTabs: [
     { title: 'Destacados', path: '/destacados' },
-    { title: 'Aromaterapia', path: '/aromaterapia' },
+    { title: 'Blog', path: '/blog' },
     { title: 'Ofertas', path: '/ofertas' },
   ],
   groupView: {
@@ -80,9 +80,9 @@ export const FEATURES: Features = {
       twitter: false,
       bluesky: false,
       mastodon: false,
-      facebook: false,
-      linkedin: true,
-      pinterest: false,
+      facebook: true,
+      linkedin: false,
+      pinterest: true,
       reddit: false,
     },
   ],

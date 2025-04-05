@@ -10,6 +10,9 @@ ogImage: true
 import BaseLayout from '~/layouts/BaseLayout.astro'
 import StandardLayout from '~/layouts/StandardLayout.astro'
 import RenderPost from '~/components/views/RenderPost.astro'
+import VantaBackground from '~/components/VantaBackground.astro'
+
+{' '}
 
 <BaseLayout
   title={frontmatter.title}
@@ -17,7 +20,8 @@ import RenderPost from '~/components/views/RenderPost.astro'
   bgType={frontmatter.bgType}
   ogImage={frontmatter.ogImage}
 >
-  <StandardLayout title={frontmatter.title} subtitle={frontmatter.subtitle}>
+  <VantaBackground />
+  <StandardLayout>
     <RenderPost
       slot="article"
       pageToc={frontmatter.toc}
