@@ -71,7 +71,7 @@ Para mantener tu difusor en óptimas condiciones, sigue estos consejos:
 3. **Usa aceites esenciales de calidad:** Así evitarás residuos que puedan afectar el mecanismo ultrasónico.
 
 ![Difusor de vidrio iluminado en la noche](https://elsaltoweb.es/wp-content/uploads/2025/02/pexels-cottonbro-7417506-scaled.jpg "Difusor de vidrio iluminado")  
-[Encuentra más ideas de decoración aquí](https://www.pexels.com/search/glass-diffuser/)
+
 
 ---
 
@@ -99,9 +99,6 @@ Un difusor de vidrio puede convertirse en el centro de atención en cualquier es
 - **Sala de estar:** En una mesa auxiliar o estantería, combinado con plantas o velas decorativas.
 - **Oficina:** Junto a tu escritorio, para mejorar la concentración con aceites de cítricos o menta.
 
-![Decoración con difusor de vidrio](https://via.placeholder.com/1024x683.png "Difusor de vidrio en una sala de estar moderna")  
-[Inspírate con más decoraciones aquí](https://unsplash.com/s/photos/aroma-diffuser)
-
 ---
 
 ## Opiniones de nuestros clientes
@@ -119,12 +116,7 @@ Un difusor de vidrio puede convertirse en el centro de atención en cualquier es
 Un difusor de vidrio es una opción perfecta para quienes buscan combinar aromaterapia con un toque de sofisticación en su hogar. En [DifusorAromas.com](https://difusoraromas.com) encontrarás una amplia variedad de modelos que se adaptan a tus necesidades.
 
 ### ¿Listo para mejorar tu ambiente?  
-[Explora nuestra colección de difusores de vidrio](https://difusoraromas.com/productos/difusores-vidrio).
+[Explora nuestra colección de difusores de vidrio](https://difusoraromas.com/productos).
 
 ---
-
-## Recursos adicionales:
-
-- [Aceites esenciales para difusores](https://difusoraromas.com/aceites-esenciales)  
-- [Guía para elegir tu difusor ideal](https://difusoraromas.com/guia-difusores)
 
