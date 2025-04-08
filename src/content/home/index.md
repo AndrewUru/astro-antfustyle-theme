@@ -26,10 +26,6 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
     </iframe>
   </div>
 
-  <!-- Contenido en Redes Sociales -->
-  <h2>Contenido en Redes Sociales 📸</h2>
-  <p>Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:</p>
-
   <!-- Segundo video -->
   <div class="video-container">
     <iframe src="https://www.youtube.com/embed/JvDPDERJmpw?si=0v9c0G-pZoiiIazT" 
@@ -39,6 +35,10 @@ Aquí te dejamos algunos videos útiles sobre el uso de difusores de aromas y co
             allowfullscreen>
     </iframe>
   </div>
+
+  <!-- Contenido en Redes Sociales -->
+  <h2>Contenido en Redes Sociales 📸</h2>
+  <p>Mantente al día con las últimas novedades y consejos en aromaterapia desde nuestras redes sociales:</p>
 
 
  <h2>Últimos Posts en Instagram</h2>
