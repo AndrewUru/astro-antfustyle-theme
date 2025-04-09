@@ -6,20 +6,23 @@
   id="hero-bg"
   class="relative h-[60vh] w-[95%] mx-auto my-8 rounded-3xl overflow-hidden border border-white/10 shadow-lg"
 >
-  <div class="absolute inset-0 z-0"></div>
+  <!-- Capa semitransparente para simular vapor flotando -->
+  <div class="absolute inset-0 bg-black/30 z-0"></div>
+
+  <!-- Contenido centrado -->
   <div
     class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6"
   >
     <h1 class="text-4xl md:text-6xl font-bold drop-shadow-md text-white">
-      Bienvenido a AromaLuxe
+      Bienvenido a <span class="italic text-amber-300">AromaLuxe</span>
     </h1>
-    <p class="mt-4 text-lg md:text-xl text-white">
-      Descubre el equilibrio, la calma y el poder de los aromas
+    <p class="mt-4 text-lg md:text-xl text-white max-w-2xl">
+      El aroma ideal puede cambiarlo todo.<br />
+      Relájate, respira profundo y deja que tus sentidos te guíen.
     </p>
   </div>
 </div>
 
-<!-- Cargamos scripts como HTML clásico -->
 <script is:raw>
   const loadScript = (src) =>
     new Promise((resolve, reject) => {
@@ -35,17 +38,18 @@
       'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js'
     )
     await loadScript(
-      'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js'
+      'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js'
     )
 
-    window.VANTA.WAVES({
+    window.VANTA.FOG({
       el: '#hero-bg',
-      color: 0x111111,
-      shininess: 30,
-      waveHeight: 15,
-      waveSpeed: 0.3,
-      zoom: 0.9,
-      backgroundColor: 0x000000,
+      highlightColor: 0xe0c097, // crema ámbar
+      midtoneColor: 0x7e6651, // marrón suave
+      lowlightColor: 0x1a1a1a, // humo oscuro
+      baseColor: 0x000000, // fondo oscuro (ya semi visible)
+      blurFactor: 0.7,
+      speed: 1.5,
+      zoom: 1.2,
     })
   })
 </script>
