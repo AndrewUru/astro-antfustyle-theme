@@ -1,5 +1,6 @@
 ---
 import LogoButton from '~/components/widgets/LogoButton.astro'
+import Divider from '~/components/base/Divider.astro'
 import SearchSwitch from '~/components/widgets/SearchSwitch.astro'
 import ThemeSwitch from '~/components/widgets/ThemeSwitch.astro'
 import RssLink from '~/components/widgets/RssLink.astro'
@@ -28,14 +29,18 @@ validateNavBarLayout(navBarLayout)
       mergeOnMobile ? (
         <>
           {left.length !== 0 && (
-            <div class="grid grid-flow-col gap-4.8 print:op-0">
+            <div
+              class={`grid grid-flow-col items-center gap-4.8 print:op-0 ${mergeOnMobile ? '' : 'lt-md:(gap-3)'}`}
+            >
               {left.map((key) =>
-                key === 'searchButton' ? (
+                key === 'hr' ? (
+                  <Divider class={mergeOnMobile ? 'lt-md:hidden' : undefined} />
+                ) : key === 'searchButton' ? (
                   <SearchSwitch />
                 ) : key === 'themeButton' ? (
                   <ThemeSwitch />
                 ) : key === 'rssLink' ? (
-                  <RssLink class="lt-md:hidden" />
+                  <RssLink class={mergeOnMobile ? 'lt-md:hidden' : undefined} />
                 ) : key === 'internalNavs' ? (
                   internalNavs.map((item) => (
                     <NavItem type="internal" {item} {mergeOnMobile} />
